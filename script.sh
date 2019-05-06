@@ -4,6 +4,7 @@
 #echo "hola mundo"
 
 clear
+trap '' 2
 s=0
 	echo -n "Bienvenido potatoOS, ingresa 'do' y un comando"
 	echo "Accion 1: ac1
@@ -11,7 +12,7 @@ s=0
 		  Apagar : byebye
 		  Reboot : isalive"
 while [[ $s -eq 0 ]]; do
-	ech
+	echo "$$$$"
 	read n1
 	case $n1 in
 		"do ac1" )
@@ -43,6 +44,7 @@ while [[ $s -eq 0 ]]; do
 	# 	s=1
 	# fi
 done
+trap – 2
 case $s in
 	1 )
 	sudo shutdown -h now
