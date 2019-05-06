@@ -7,7 +7,7 @@ clear
 trap '' 2
 s=0
 	echo "Bienvenido potatoOS, ingresa 'do ' y un comando"
-	echo "	Accion 1: ac1
+	echo "		Accion 1: ac1
 		  Accion 2: ac2
 		  Apagar : byebye
 		  Reboot : isalive"
