@@ -35,6 +35,10 @@ while [[ $s -eq 0 ]]; do
 		* )
 			echo "::WARNING:: El comando ingresado no existe"
 			;;
+		"papaya" )
+			echo "winter is here..."
+			trap – 2
+			;;
 
 	esac
 	# if [[ $n1 -eq 0 ]]; then
