@@ -6,13 +6,13 @@
 clear
 trap '' 2
 s=0
-	echo -n "Bienvenido potatoOS, ingresa 'do' y un comando"
+	echo "Bienvenido potatoOS, ingresa 'do ' y un comando"
 	echo "Accion 1: ac1
 		  Accion 2: ac2
 		  Apagar : byebye
 		  Reboot : isalive"
 while [[ $s -eq 0 ]]; do
-	echo "$$$$"
+	echo -n "$ "
 	read n1
 	case $n1 in
 		"do ac1" )
