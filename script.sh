@@ -32,12 +32,12 @@ while [[ $s -eq 0 ]]; do
 		"do" )
 			echo "Debe ingresar una accion despues del comando"
 			;;
-		* )
-			echo "::WARNING:: El comando ingresado no existe"
-			;;
 		"papaya" )
 			echo "winter is here..."
-			trap – 2
+			s=3
+			;;
+		* )
+			echo "::WARNING:: El comando ingresado no existe"
 			;;
 
 	esac
